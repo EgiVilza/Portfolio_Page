@@ -30,13 +30,15 @@
         //background-color: $darkBlue;
         background-image: linear-gradient($darkBlue, transparent);
         //&.fade-in
+        z-index: 1;
     }
 
     nav {
         position: relative;
         background-color: white;
         padding-top: 1.0625rem;
-        padding-bottom: 1.0625rem;;
+        padding-bottom: 1.0625rem;
+        z-index: 2;
     }
 
     &__logo{
@@ -70,9 +72,9 @@
         transform: translateX(-50%);
         background: $white;
         margin-top: 1.5rem;
-        //margin: 0px 1.5rem;
         padding: 1.625rem;
         border-radius: 5px;
+        z-index: 3;
         
         a {
             display: block;
