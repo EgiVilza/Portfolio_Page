@@ -20,14 +20,12 @@
     }
 
     .overlay {
-        //display: none;
         opacity: 0;
         position: fixed;
         top: 0px;
         right: 0px;
         bottom: 0px;
         left: 0px;
-        //background-color: $darkBlue;
         background-image: linear-gradient($darkBlue, transparent);
         //&.fade-in
         z-index: 1;
@@ -35,17 +33,14 @@
 
     nav {
         position: relative;
-        background-color: white;
+        background-color: rgb(71, 70, 70);
         padding-top: 1.0625rem;
         padding-bottom: 1.0625rem;
         z-index: 2;
     }
 
-    &__logo{
-        img {
-            width: 8.8125rem;
-            height: 1.375rem;
-        }
+    &__logo{  
+        color: white;
     }
 
     &__toggle { //mobile menu (toggle)
@@ -53,7 +48,7 @@
             display: block;
             width: 26px;
             height: 2px;
-            background-color: $darkBlue;
+            background-color: white;
             transition: all 300ms ease-in-out;
             transform-origin: 3px 1px;
 
@@ -89,25 +84,13 @@
         a {
             position: relative;
             font-size: $font-sm;
-            color: $grayishBlue;
+            color: white;
             transition: color 300ms ease-in-out;
 
             &:not(:last-child){
                 margin-right: 32px; //adds space between header links
             }
 
-            &::before {
-                content: "";
-                display: block;
-                position: absolute;
-                height: 5px;
-                background: linear-gradient(to right, $limeGreen, $brightCyan);
-                opacity: 0;
-                transition: opacity 300ms ease-in-out;
-                left: 0;
-                right: 0;
-                bottom: -30px;
-            }
             &:hover {
                 color: $darkBlue;
 
