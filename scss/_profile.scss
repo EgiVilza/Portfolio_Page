@@ -24,27 +24,26 @@
         }
         margin: auto;
     }
-}
 
-//Profile Picture Div - Circular image
-.profilePicture {
-    display: inline-block;
-    position: relative;
-    width: 400px;
-    height: 400px;
-    overflow: hidden;
-    border-radius: 50%;
-    margin-top: 1.875rem;
-}
+    &__picture {
+        display: inline-block;
+        position: relative;
+        width: 400px;
+        height: 400px;
+        overflow: hidden;
+        border-radius: 50%;
+        margin-top: 1.875rem;
 
-.profilePicture img {
-    width: auto;
-    height: auto;
-    //margin-left: -50px;
-  }
+        img {
+            width: auto;
+            height: auto;
+            margin-left: -65px;
+          }
+    }
 
-.profileText {
-    padding: .75rem;
-    margin: 1.25rem;
+    &__text {
+        padding: .75rem;
+        margin: 1.25rem;
+    }
 }
 

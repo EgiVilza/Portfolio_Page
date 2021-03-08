@@ -102,6 +102,11 @@ a, a:visited, a:hover {
   text-decoration: none;
 }
 
+.note {
+  text-align: center;
+  font-size: 50px;
+}
+
 .container--pall {
   padding-top: 4.375rem;
   padding-bottom: 4.375rem;
@@ -350,7 +355,7 @@ a, a:visited, a:hover {
           transform: scale(1.05);
 }
 
-.profilePicture {
+.profile__picture {
   display: inline-block;
   position: relative;
   width: 400px;
@@ -360,12 +365,13 @@ a, a:visited, a:hover {
   margin-top: 1.875rem;
 }
 
-.profilePicture img {
+.profile__picture img {
   width: auto;
   height: auto;
+  margin-left: -65px;
 }
 
-.profileText {
+.profile__text {
   padding: .75rem;
   margin: 1.25rem;
 }
